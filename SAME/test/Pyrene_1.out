@@ -1,0 +1,1703 @@
+Job Pyrene_1 started on n054 at Sun Jan  8 22:27:06 2017
+jobid: u01-0-58730289
+
+  +--------------------------------------------------------------------+
+  |  Jaguar version 9.3, release  15                                   |
+  |                                                                    |
+  |  Copyright Schrodinger, Inc.                                       |
+  |  All Rights Reserved.                                              |
+  |                                                                    |
+  |  The following have contributed to Jaguar (listed alphabetically): |
+  |  Mike Beachy, Art Bochevarov, Dale Braden, Yixiang Cao,            |
+  |  Chris Cortis, Rich Friesner, Bill Goddard, Hod Greeley,           |
+  |  Tom Hughes, Leif Jacobson, Jean-Marc Langlois,                    |
+  |  Daniel Mainz, Rob Murphy, Dean Philipp,                           |
+  |  Tom Pollard, Murco Ringnalda, Mark Watson.                        |
+  |                                                                    |
+  |  Use of this program should be acknowledged in publications as:    |
+  |                                                                    |
+  |  Jaguar, version 9.3, Schrodinger, Inc., New York, NY, 2016.       |
+  |                                                                    |
+  |  A. D. Bochevarov, E. Harder, T. F. Hughes, J. R. Greenwood,       |
+  |  D. A. Braden, D. M. Philipp, D. Rinaldo, M. D. Halls,             |
+  |  J. Zhang, R. A. Friesner, "Jaguar: A High-Performance Quantum     |
+  |  Chemistry Software Program with Strengths in Life and Materials   |
+  |  Sciences", Int. J. Quantum Chem., 2013, 113(18), 2110-2142.       |
+  +--------------------------------------------------------------------+
+  
+  start of program pre
+  
+  Job name: Pyrene_1
+  Executables used: /home/applications/Schrodinger_Suites_2016-3/jaguar-v9.3/bin/Linux-x86_64
+  Temporary files : /scratch/Schrodinger_Suites/pbeni001/Pyrene_1#u01-0-58730289
+  Maestro file (input):  Pyrene_1.mae
+  Maestro file (output): Pyrene_1.01.mae
+  
+  basis set:             6-31g                           
+  net molecular charge:    1
+  multiplicity:            2
+  
+  Using up to  16 threads per process
+  
+  number of basis functions....          164
+  
+ Input geometry:
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.5063274000      0.0120447000      0.0003881000 
+  C2            2.8089404000      1.2192867000     -0.0002703000 
+  C3            1.4099463000      1.2321112000     -0.0001234000 
+  C4            0.6973103000      2.4382199000      0.0000402000 
+  C5           -0.6971775000      2.4382779000      0.0005533000 
+  C6           -1.4099059000      1.2322451000      0.0005877000 
+  C7           -2.8088945000      1.2195536000      0.0003871000 
+  C8           -3.5063894000      0.0123859000     -0.0011395000 
+  C9           -2.8148743000     -1.1993540000     -0.0003781000 
+  C10          -1.4136591000     -1.2211124000      0.0000488000 
+  C11          -0.7065546000      0.0042527000      0.0002639000 
+  C12           0.7064921000      0.0041980000      0.0000730000 
+  C13           1.4134913000     -1.2212496000      0.0000496000 
+  C14           2.8147030000     -1.1996233000      0.0002862000 
+  C15           0.6982811000     -2.4275904000     -0.0000952000 
+  C16          -0.6985485000     -2.4275301000     -0.0002219000 
+  H17           4.5925543000      0.0163732000      0.0010673000 
+  H18           3.3659734000      2.1532160000     -0.0007280000 
+  H19           1.2225911000      3.3907921000     -0.0001282000 
+  H20          -1.2223909000      3.3908937000      0.0005354000 
+  H21          -3.3658386000      2.1535407000      0.0012322000 
+  H22          -4.5926142000      0.0168294000     -0.0031025000 
+  H23          -3.3804619000     -2.1283175000     -0.0001917000 
+  H24           3.3802053000     -2.1286441000      0.0004355000 
+  H25           1.2242549000     -3.3800821000     -0.0001933000 
+  H26          -1.2245988000     -3.3799732000     -0.0008124000 
+   
+  principal moments of inertia:
+        amu*angstrom^2:      491.23731      900.01924     1391.25647
+                g*cm^2: 8.15718637E-38 1.49451692E-37 2.31023543E-37
+   
+  rotational constants:
+               cm^(-1):      0.03431667      0.01873030      0.01211684
+                   GHz:      1.02878792      0.56152023      0.36325366
+   
+  Molecular weight:     202.08 amu
+   
+  Stoichiometry: C16H10
+  Molecular Point Group: C1      
+  Point Group used: C1
+  
+ 
+Number of optimization coordinates:    98
+Number of independent coordinates:     98
+Number of non-redundant coordinates:   72
+Number of frozen coordinates:           0
+Number of harmonic constraints:         0
+ 
+Number of geometric degrees of freedom:    72
+Maximum geometric degrees of freedom:      72
+ " " " " " excluding dummy atoms:          72
+ 
+  nuclear repulsion energy.......     971.713359335 hartrees
+ 
+ Non-default options chosen:
+   SCF calculation type: UDFT(b3lyp)                 
+   UDFT=Becke_3_Parameter/HF+Slater+Becke88+VWN+LYP (B3LYP)
+   Geometry will be optimized in redundant internal coordinates
+   Electrostatic potential fit to point charges on atomic centers
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               yes
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+ Temporary integer options set:
+     73=  2
+  
+  Peak memory usage:   4802 Mb
+  
+  end of program pre
+   
+ Time(pre)  user:        6.9  user+sys:        6.9  wallclock:        0.9
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    1.994E-04
+  number of canonical orbitals.....          161
+  Peak memory usage:   4838 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        3.4  user+sys:        3.4  wallclock:        0.5
+  
+  start of program hfig
+  
+  initial wavefunction generated automatically from atomic wavefunctions
+  
+  -------------------
+  Alpha orbital space
+  -------------------
+ 
+  Irreducible     Total no   No of occupied orbitals 
+  representation  orbitals   Shell_1  Shell_2    ...
+  No Symm          161         53
+  ------------------------
+  Orbital occupation/shell    1.000
+ 
+  ------------------
+  Beta orbital space
+  ------------------
+ 
+  Irreducible     Total no   No of occupied orbitals 
+  representation  orbitals   Shell_1  Shell_2    ...
+  No Symm          161         52
+  ------------------------
+  Orbital occupation/shell    1.000
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1) ..............     0.750
+    <S**2> of initial guess      0.750
+  
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program hfig
+   
+ Time(hfig)  user:        2.5  user+sys:        2.5  wallclock:        0.5
+  
+  start of program probe
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        1.7  user+sys:        1.7  wallclock:        0.4
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -11        4        1
+  DFT-med.    -10        5        1
+  DFT-grad    -12        6        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       C5       C6       C7
+  grid # 1       97       97      101       97       97      101       97
+  grid # 2      334      336      365      336      336      365      336
+  grid # 3      230      230      250      230      230      250      230
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom        C8       C9      C10      C11      C12      C13      C14
+  grid # 1       97       97      101       98       98      101       97
+  grid # 2      334      336      365      364      366      365      336
+  grid # 3      230      230      250      248      248      250      230
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C15      C16      H17      H18      H19      H20      H21
+  grid # 1       97       97      118      118      118      118      118
+  grid # 2      336      336      451      444      446      446      444
+  grid # 3      230      230     1324     1149     1147     1147     1149
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H22      H23      H24      H25      H26    total
+  grid # 1      118      118      118      118      118     2750
+  grid # 2      451      446      446      446      446    10012
+  grid # 3     1324     1152     1151     1149     1149    15637
+  grid # 4     4304     4304     4304     4304     4304   111904
+  grid # 5     1192     1192     1192     1192     1192    30992
+  grid # 6     5226     5226     5226     5226     5226   135876
+   
+  Peak memory usage:   4782 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:       10.7  user+sys:       10.7  wallclock:        1.1
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       26.1  user+sys:       26.1  wallclock:        2.4
+  
+  start of program scf
+  
+ number of electrons..........        105
+ number of alpha electrons....         53
+ number of beta electrons.....         52
+ number of alpha orbitals.....        161
+ number of beta orbitals......        161
+ number of alpha occupied orb..        53
+ number of alpha virtual orb...       108
+ number of beta occupied orb...        52
+ number of beta virtual orb....       109
+ SCF type: UDFT=Becke_3_Parameter/HF+Slater+Becke88+VWN+LYP (B3LYP)
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  5  M    -613.50852795299           8.4E-03  2.0E-01
+etot    2  Y  Y  6  M    -615.15717036839  1.6E+00  1.0E-02  6.0E-02
+etot    3  Y  Y  6  M    -615.09323069994 -6.4E-02  5.3E-03  1.1E-01
+etot    4  N  Y  2  U    -615.34658021868  2.5E-01  3.8E-03  2.9E-02
+etot    5  Y  Y  6  M    -615.37442810110  2.8E-02  1.7E-03  1.0E-02
+etot    6  N  Y  2  U    -615.37455056795  1.2E-04  6.6E-04  7.8E-03
+etot    7  Y  Y  6  M    -615.37523651702  6.9E-04  2.5E-04  6.3E-03
+etot    8  Y  Y  6  M    -615.37588184669  6.5E-04  7.3E-05  1.3E-03
+etot    9  Y  Y  6  M    -615.37592699284  4.5E-05  2.4E-05  3.9E-04
+etot   10  N  Y  2  U    -615.37598486194  5.8E-05  1.7E-05  3.3E-04
+etot   11  N  Y  2  U    -615.37598704636  2.2E-06  1.2E-05  7.3E-05
+etot   12  N  Y  2  U    -615.37598738629  3.4E-07  2.1E-06  3.6E-05
+etot   13  N  N  2  U    -615.37598740985  2.4E-08  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............     971.71335933539
+   (E)  Total one-electron terms.....   -2741.37138757424
+   (I)  Total two-electron terms.....    1154.28204082901
+   (L)  Electronic energy............   -1587.08934674523  (E+I)
+   (N)  Total energy.................    -615.37598740985  (A+L)
+   (O)  Gas phase energy.............    -615.37598740985
+  
+                                 Total             Coulomb       Exchange+Corr.
+ Total two-electron terms    1154.28204082901    1244.70234370531     -90.42030287630
+   Hamiltonian  1........     595.26131797200     627.49424247449     -32.23292450249
+   Hamiltonian  2........     585.32321178052     617.20810123082     -31.88488945030
+  
+ SCFE: SCF energy: UDFT(b3lyp)      -615.37598740985 hartrees   iterations:  13
+  
+ 
+ Alpha HOMO energy:    -0.36480
+ Alpha LUMO energy:    -0.22925
+ 
+  Alpha Orbital energies (hartrees): 
+   -10.36074   -10.36073   -10.36025   -10.36024   -10.35888   -10.35887
+   -10.35836   -10.35834   -10.35719   -10.35673   -10.35659   -10.35612
+   -10.35360   -10.35321   -10.34158   -10.34157    -1.06775    -1.02492
+    -1.00515    -0.96532    -0.94255    -0.91388    -0.89688    -0.87864
+    -0.79755    -0.79523    -0.79245    -0.77431    -0.70543    -0.69063
+    -0.68012    -0.67097    -0.65448    -0.63057    -0.60460    -0.60361
+    -0.59368    -0.58093    -0.57933    -0.56155    -0.55483    -0.55309
+    -0.53067    -0.52798    -0.52527    -0.51107    -0.48791    -0.48549
+    -0.45934    -0.44680    -0.41623    -0.39208    -0.36480    -0.22925
+    -0.17530    -0.16547    -0.13788    -0.10082    -0.04657    -0.04172
+    -0.02657    -0.02056    -0.00803
+ 
+ 
+ Beta HOMO energy:    -0.39196
+ Beta LUMO energy:    -0.30926
+ 
+  Beta Orbital energies (hartrees): 
+   -10.35912   -10.35911   -10.35860   -10.35859   -10.35732   -10.35730
+   -10.35685   -10.35683   -10.35586   -10.35541   -10.35525   -10.35479
+   -10.35366   -10.35327   -10.34291   -10.34290    -1.06569    -1.02083
+    -1.00157    -0.96120    -0.93761    -0.91054    -0.89650    -0.86970
+    -0.79368    -0.79183    -0.79151    -0.77157    -0.70284    -0.68866
+    -0.67829    -0.66896    -0.65304    -0.62871    -0.60301    -0.60180
+    -0.59217    -0.57871    -0.57557    -0.56082    -0.55284    -0.55110
+    -0.52712    -0.52362    -0.51985    -0.49999    -0.48626    -0.48513
+    -0.44814    -0.43017    -0.40446    -0.39196    -0.30926    -0.20508
+    -0.17125    -0.15969    -0.12509    -0.09013    -0.04082    -0.03774
+    -0.02545    -0.01961
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1)      0.750
+    <S**2> ...     0.770
+  
+  
+  Peak memory usage:   6746 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:      124.4  user+sys:      124.4  wallclock:        9.1
+  
+  start of program der1a
+  
+  Peak memory usage:   4838 Mb
+  
+  end of program der1a
+   
+ Time(der1a)  user:        1.8  user+sys:        1.8  wallclock:        0.4
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       21.1  user+sys:       21.1  wallclock:        2.6
+  
+  start of program der1b
+  
+   
+  forces (hartrees/bohr) : total     
+   
+ atom  label           x              y              z
+ ---- --------   -------------  -------------  -------------
+    1 C1          7.537665E-03  -3.967291E-04  -4.772381E-06
+    2 C2          2.396099E-02  -1.552276E-03   2.237585E-05
+    3 C3         -4.327771E-03   1.961276E-03  -7.113995E-06
+    4 C4         -1.527433E-02   1.618110E-02   7.361100E-06
+    5 C5          1.528386E-02   1.618121E-02  -1.237041E-05
+    6 C6          4.322205E-03   1.945629E-03   3.000610E-05
+    7 C7         -2.396779E-02  -1.545992E-03  -5.451706E-05
+    8 C8         -7.540124E-03  -4.051241E-04   1.670855E-05
+    9 C9         -2.311419E-02   1.407690E-03  -4.808136E-05
+   10 C10         4.085486E-03  -2.158645E-03   2.329441E-05
+   11 C11         8.323621E-03   3.158763E-04  -3.481129E-06
+   12 C12        -8.293814E-03   3.203812E-04   4.364246E-07
+   13 C13        -4.083004E-03  -2.142803E-03   4.884293E-07
+   14 C14         2.310311E-02   1.380790E-03   1.502123E-05
+   15 C15        -1.532080E-02  -1.552920E-02  -8.627313E-06
+   16 C16         1.536669E-02  -1.542758E-02  -3.402428E-06
+   17 H17        -2.121101E-03  -2.800477E-04  -2.763235E-05
+   18 H18        -2.284895E-03  -4.833546E-04   1.292406E-05
+   19 H19         8.844137E-04  -3.032683E-03  -2.424410E-06
+   20 H20        -8.102826E-04  -3.134917E-03   1.269785E-05
+   21 H21         2.287362E-03  -4.851227E-04  -3.520302E-05
+   22 H22         2.120623E-03  -2.826911E-04   7.747162E-05
+   23 H23         2.693685E-03   3.065870E-04  -3.228553E-05
+   24 H24        -2.695746E-03   3.087077E-04   4.337512E-06
+   25 H25         5.387776E-04   3.016649E-03  -1.913732E-06
+   26 H26        -4.443946E-04   2.919780E-03   1.636673E-05
+ -------------   -------------  -------------  -------------
+     total        2.302573E-04  -6.114947E-04  -2.335258E-06
+   
+  Peak memory usage:   6739 Mb
+  
+  end of program der1b
+   
+ Time(der1b)  user:       26.3  user+sys:       26.3  wallclock:        2.2
+  
+  start of program geopt
+  
+ ----------------------------------------------------------------------------
+  Geometry optimization step  1
+  Total energy:      -615.37598740985 hartrees
+ ----------------------------------------------------------------------------
+  
+  gradient maximum:        2.4812E-02 .  (  4.5000E-04 )
+  gradient rms:            6.9062E-03 .  (  3.0000E-04 )
+  displacement maximum:    6.5329E-02 .  (  1.8000E-03 )
+  displacement rms:        1.8309E-02 .  (  1.2000E-03 )
+  
+  predicted energy change:  -6.3556E-03
+  step size:     0.18125
+  trust radius:  0.30000
+  
+  molecular structure not yet converged...
+  
+  center of mass moved by:
+     x:    -2.3326E-05     y:     2.0433E-03     z:    -4.8394E-05
+  
+  new geometry: 
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.5618306796      0.0068404050      0.0004023730 
+  C2            2.8625424920      1.2189669327      0.0001026032 
+  C3            1.4292604930      1.2481636903      0.0000490002 
+  C4            0.6964106804      2.4713033534      0.0001081568 
+  C5           -0.6958922868      2.4710442139      0.0003700112 
+  C6           -1.4293484173      1.2482285555      0.0003419812 
+  C7           -2.8626784619      1.2195472583      0.0000566499 
+  C8           -3.5620183059      0.0074233077     -0.0007277336 
+  C9           -2.8625709121     -1.2042055450     -0.0005206641 
+  C10          -1.4296550594     -1.2335871188     -0.0000777447 
+  C11          -0.7113906774      0.0072164589      0.0001542526 
+  C12           0.7112110355      0.0072001437      0.0001004136 
+  C13           1.4294428160     -1.2335863476      0.0000696454 
+  C14           2.8622276980     -1.2046095453      0.0002913719 
+  C15           0.6958002395     -2.4556026173     -0.0001142573 
+  C16          -0.6957133368     -2.4556497798     -0.0002176069 
+  H17           4.6449121987      0.0065847958      0.0007487805 
+  H18           3.4136735693      2.1536733278     -0.0000105459 
+  H19           1.2300606657      3.4154290885      0.0000238669 
+  H20          -1.2295810608      3.4149520898      0.0003447757 
+  H21          -3.4139886517      2.1541722352      0.0003785349 
+  H22          -4.6451262564      0.0073484113     -0.0015482743 
+  H23          -3.4145077416     -2.1384386603     -0.0006510197 
+  H24           3.4138051556     -2.1390479465      0.0003822548 
+  H25           1.2287202460     -3.4001101580     -0.0002270510 
+  H26          -1.2279431830     -3.4006244260     -0.0006001406 
+   
+  nuclear repulsion energy.......     960.137515467 hartrees
+  -------------------------------------------------
+ /  end of geometry optimization iteration   1   /
+ -------------------------------------------------
+   
+  Peak memory usage:   4725 Mb
+  
+  end of program geopt
+   
+ Time(geopt)  user:        5.1  user+sys:        5.1  wallclock:        0.4
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    2.375E-04
+  number of canonical orbitals.....          162
+  Peak memory usage:   4838 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        2.0  user+sys:        2.0  wallclock:        0.5
+  
+  start of program probe
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        1.9  user+sys:        1.9  wallclock:        0.4
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -11        4        1
+  DFT-med.    -10        5        1
+  DFT-grad    -12        6        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       C5       C6       C7
+  grid # 1       97       97      100       97       97       99       97
+  grid # 2      334      341      366      341      339      366      341
+  grid # 3      230      232      258      232      232      258      232
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom        C8       C9      C10      C11      C12      C13      C14
+  grid # 1       97       97       99      101      101       99       97
+  grid # 2      334      341      368      368      368      368      341
+  grid # 3      230      232      260      256      258      259      232
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C15      C16      H17      H18      H19      H20      H21
+  grid # 1       97       97      118      118      118      118      118
+  grid # 2      341      341      451      446      446      446      446
+  grid # 3      232      232     1328     1157     1155     1154     1158
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H22      H23      H24      H25      H26    total
+  grid # 1      118      118      118      118      118     2749
+  grid # 2      451      446      446      446      446    10068
+  grid # 3     1328     1158     1157     1153     1155    15768
+  grid # 4     4304     4304     4304     4304     4304   111904
+  grid # 5     1192     1192     1192     1192     1192    30992
+  grid # 6     5226     5226     5226     5226     5226   135876
+   
+  Peak memory usage:   4782 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:       11.6  user+sys:       11.6  wallclock:        1.1
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       26.2  user+sys:       26.2  wallclock:        2.4
+  
+  start of program scf
+  
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  2  U    -615.37828701748           2.6E-03  2.9E-02
+etot    2  Y  Y  6  M    -615.37994861206  1.7E-03  7.5E-04  4.8E-03
+etot    3  Y  Y  6  M    -615.37981392592 -1.3E-04  2.1E-04  4.9E-03
+etot    4  Y  Y  6  M    -615.38035007844  5.4E-04  3.9E-05  9.5E-04
+etot    5  N  Y  2  U    -615.38090408487  5.5E-04  2.5E-05  2.7E-04
+etot    6  N  Y  2  U    -615.38090575369  1.7E-06  1.3E-05  1.4E-04
+etot    7  N  Y  2  U    -615.38090589162  1.4E-07  2.0E-05  8.6E-05
+etot    8  N  Y  2  U    -615.38090597701  8.5E-08  2.2E-06  4.7E-05
+etot    9  N  N  2  U    -615.38090603854  6.2E-08  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............     960.13751546696
+   (E)  Total one-electron terms.....   -2718.45844165098
+   (I)  Total two-electron terms.....    1142.94002014548
+   (L)  Electronic energy............   -1575.51842150549  (E+I)
+   (N)  Total energy.................    -615.38090603854  (A+L)
+   (O)  Gas phase energy.............    -615.38090603854
+  
+                                 Total             Coulomb       Exchange+Corr.
+ Total two-electron terms    1142.94002014548    1233.19201279729     -90.25199265180
+   Hamiltonian  1........     589.51704793569     621.68776964394     -32.17072170826
+   Hamiltonian  2........     579.68023552919     611.50424315334     -31.82400762415
+  
+ SCFE: SCF energy: UDFT(b3lyp)      -615.38090603854 hartrees   iterations:   9
+  
+ 
+ Alpha HOMO energy:    -0.36399
+ Alpha LUMO energy:    -0.23125
+ 
+  Alpha Orbital energies (hartrees): 
+   -10.36555   -10.36553   -10.36549   -10.36544   -10.36444   -10.36442
+   -10.36434   -10.36431   -10.35878   -10.35860   -10.35830   -10.35811
+   -10.35785   -10.35746   -10.34401   -10.34399    -1.05646    -1.01429
+    -0.99615    -0.96137    -0.93149    -0.91090    -0.89449    -0.87416
+    -0.79596    -0.78782    -0.78709    -0.77166    -0.70437    -0.68506
+    -0.67732    -0.66572    -0.65360    -0.63113    -0.59833    -0.59804
+    -0.59690    -0.58057    -0.57217    -0.55936    -0.55499    -0.55134
+    -0.52734    -0.52716    -0.52346    -0.50461    -0.48766    -0.48267
+    -0.45868    -0.43933    -0.41523    -0.39156    -0.36399    -0.23125
+    -0.17726    -0.16425    -0.14486    -0.10319    -0.05182    -0.04108
+    -0.02578    -0.01925    -0.01681
+ 
+ 
+ Beta HOMO energy:    -0.39164
+ Beta LUMO energy:    -0.30847
+ 
+  Beta Orbital energies (hartrees): 
+   -10.36573   -10.36571   -10.36567   -10.36562   -10.36100   -10.36098
+   -10.36091   -10.36089   -10.35790   -10.35752   -10.35751   -10.35733
+   -10.35704   -10.35686   -10.34539   -10.34538    -1.05443    -1.01008
+    -0.99267    -0.95727    -0.92642    -0.90770    -0.89422    -0.86513
+    -0.79024    -0.78684    -0.78561    -0.76892    -0.70163    -0.68309
+    -0.67554    -0.66381    -0.65220    -0.62937    -0.59679    -0.59619
+    -0.59542    -0.58001    -0.56685    -0.55868    -0.55296    -0.54930
+    -0.52627    -0.52574    -0.51226    -0.49395    -0.48600    -0.48236
+    -0.44740    -0.42228    -0.40413    -0.39164    -0.30847    -0.20695
+    -0.17337    -0.15888    -0.13174    -0.09251    -0.04318    -0.04022
+    -0.02464    -0.01833
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1)      0.750
+    <S**2> ...     0.773
+  
+  
+  Peak memory usage:   6746 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:       84.6  user+sys:       84.6  wallclock:        6.5
+  
+  start of program der1a
+  
+  Peak memory usage:   4838 Mb
+  
+  end of program der1a
+   
+ Time(der1a)  user:        1.5  user+sys:        1.5  wallclock:        0.4
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       22.4  user+sys:       22.4  wallclock:        2.7
+  
+  start of program der1b
+  
+   
+  forces (hartrees/bohr) : total     
+   
+ atom  label           x              y              z
+ ---- --------   -------------  -------------  -------------
+    1 C1         -4.804584E-03   3.153531E-04  -2.545617E-06
+    2 C2         -2.763774E-03  -1.883494E-03   6.466750E-06
+    3 C3          1.569517E-03  -2.048657E-04   6.595844E-06
+    4 C4         -1.899068E-03  -3.762720E-03   9.577321E-06
+    5 C5          1.774049E-03  -3.638056E-03  -1.178778E-05
+    6 C6         -1.426425E-03  -1.469964E-04  -1.042028E-05
+    7 C7          2.794651E-03  -1.972222E-03  -1.109464E-05
+    8 C8          4.828512E-03   2.973002E-04   9.001106E-06
+    9 C9          2.543273E-03   1.636973E-03   9.564476E-07
+   10 C10        -1.260884E-03   4.140062E-04  -1.044726E-05
+   11 C11        -2.154775E-03   8.899465E-05  -2.010751E-07
+   12 C12         2.111231E-03   1.545544E-04   2.495345E-06
+   13 C13         1.256159E-03   4.701465E-04   6.059195E-06
+   14 C14        -2.487127E-03   1.651833E-03  -4.787098E-07
+   15 C15        -1.294682E-03   3.245256E-03   2.821898E-06
+   16 C16         1.213337E-03   3.187865E-03  -8.307188E-06
+   17 H17        -3.467079E-05   1.366689E-05  -1.066384E-05
+   18 H18        -9.475995E-04   7.009686E-04   3.748365E-06
+   19 H19         7.928061E-04  -2.975137E-04  -1.741825E-07
+   20 H20        -8.260954E-04  -3.202924E-04   6.824818E-06
+   21 H21         9.973417E-04   7.088314E-04  -1.247040E-05
+   22 H22         5.384731E-05  -2.808859E-06   2.275673E-05
+   23 H23         1.037927E-03  -7.682456E-04  -1.130663E-05
+   24 H24        -1.020005E-03  -7.603922E-04   1.069735E-06
+   25 H25         8.550873E-04   2.783923E-04   9.612641E-07
+   26 H26        -9.151666E-04   3.617249E-04   8.382556E-06
+ -------------   -------------  -------------  -------------
+     total       -7.117650E-06  -2.317409E-04  -2.180219E-06
+   
+  Peak memory usage:   6739 Mb
+  
+  end of program der1b
+   
+ Time(der1b)  user:       24.6  user+sys:       24.6  wallclock:        2.0
+  
+  start of program geopt
+  
+ ----------------------------------------------------------------------------
+  Geometry optimization step  2
+  Total energy:      -615.38090603854 hartrees
+ ----------------------------------------------------------------------------
+  
+  energy change:          -4.9186E-03 .  (  5.0000E-05 )
+  gradient maximum:        6.2951E-03 .  (  4.5000E-04 )
+  gradient rms:            2.0320E-03 .  (  3.0000E-04 )
+  displacement maximum:    1.1902E-02 .  (  1.8000E-03 )
+  displacement rms:        4.2259E-03 .  (  1.2000E-03 )
+  
+  predicted energy change:  -4.1381E-04
+  step size:     0.04183
+  trust radius:  0.30000
+  
+  molecular structure not yet converged...
+  
+  center of mass moved by:
+     x:     4.1522E-05     y:    -3.7362E-05     z:    -2.5389E-05
+  
+  new geometry: 
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.5486095425      0.0073179673      0.0003210445 
+  C2            2.8520883384      1.2176635723      0.0003042532 
+  C3            1.4249608255      1.2445113346      0.0002071203 
+  C4            0.6942721693      2.4635182407      0.0002651569 
+  C5           -0.6940824894      2.4633073513      0.0002943266 
+  C6           -1.4248695311      1.2444808245      0.0001420793 
+  C7           -2.8519420384      1.2179737531     -0.0002193468 
+  C8           -3.5486158515      0.0077246489     -0.0005529260 
+  C9           -2.8521806684     -1.2026181004     -0.0005017075 
+  C10          -1.4253027386     -1.2298556551     -0.0001344176 
+  C11          -0.7099585157      0.0072774217      0.0000677073 
+  C12           0.7098893761      0.0073181741      0.0001328255 
+  C13           1.4250613885     -1.2298824521      0.0000833712 
+  C14           2.8519605800     -1.2029153836      0.0002075442 
+  C15           0.6940022800     -2.4485956050     -0.0000742481 
+  C16          -0.6943816155     -2.4485798553     -0.0001863561 
+  H17           4.6315624631      0.0072525424      0.0004427184 
+  H18           3.3971101363      2.1560552600      0.0003874747 
+  H19           1.2323398791      3.4052278234      0.0003272057 
+  H20          -1.2324532304      3.4046360186      0.0002682491 
+  H21          -3.3968402855      2.1564378439     -0.0002259365 
+  H22          -4.6315719623      0.0078379173     -0.0009123286 
+  H23          -3.3976527417     -2.1407386861     -0.0006785597 
+  H24           3.3971857032     -2.1411795494      0.0002047860 
+  H25           1.2317633737     -3.3904841331     -0.0001472177 
+  H26          -1.2320420162     -3.3905451256     -0.0004438852 
+   
+  nuclear repulsion energy.......     963.018833497 hartrees
+  -------------------------------------------------
+ /  end of geometry optimization iteration   2   /
+ -------------------------------------------------
+   
+  Peak memory usage:   4725 Mb
+  
+  end of program geopt
+   
+ Time(geopt)  user:        4.7  user+sys:        4.7  wallclock:        0.4
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    2.288E-04
+  number of canonical orbitals.....          162
+  Peak memory usage:   4838 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        1.6  user+sys:        1.6  wallclock:        0.4
+  
+  start of program probe
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        1.6  user+sys:        1.6  wallclock:        0.4
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -11        4        1
+  DFT-med.    -10        5        1
+  DFT-grad    -12        6        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       C5       C6       C7
+  grid # 1       97       97      100       97       97      100       97
+  grid # 2      334      341      360      339      339      360      341
+  grid # 3      230      232      260      231      230      260      232
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom        C8       C9      C10      C11      C12      C13      C14
+  grid # 1       97       97       99      101      101       99       97
+  grid # 2      334      341      361      368      368      361      341
+  grid # 3      230      232      258      256      254      258      232
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C15      C16      H17      H18      H19      H20      H21
+  grid # 1       97       97      118      118      118      118      118
+  grid # 2      339      339      451      446      446      446      446
+  grid # 3      232      232     1330     1156     1153     1153     1156
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H22      H23      H24      H25      H26    total
+  grid # 1      118      118      118      118      118     2750
+  grid # 2      451      446      446      446      446    10036
+  grid # 3     1330     1158     1158     1153     1153    15759
+  grid # 4     4304     4304     4304     4304     4304   111904
+  grid # 5     1192     1192     1192     1192     1192    30992
+  grid # 6     5226     5226     5226     5226     5226   135876
+   
+  Peak memory usage:   4782 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:       10.3  user+sys:       10.3  wallclock:        1.2
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       26.1  user+sys:       26.1  wallclock:        2.4
+  
+  start of program scf
+  
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  2  U    -615.38124954833           1.8E-04  1.4E-03
+etot    2  Y  Y  6  M    -615.38135315356  1.0E-04  5.2E-05  6.8E-04
+etot    3  Y  Y  6  M    -615.38132937972 -2.4E-05  3.0E-05  6.0E-04
+etot    4  N  Y  2  U    -615.38134027503  1.1E-05  8.1E-06  1.7E-04
+etot    5  N  Y  2  U    -615.38134118478  9.1E-07  3.2E-06  4.1E-05
+etot    6  N  N  2  U    -615.38134120653  2.2E-08  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............     963.01883349716
+   (E)  Total one-electron terms.....   -2724.15445543845
+   (I)  Total two-electron terms.....    1145.75428073476
+   (L)  Electronic energy............   -1578.40017470369  (E+I)
+   (N)  Total energy.................    -615.38134120653  (A+L)
+   (O)  Gas phase energy.............    -615.38134120653
+  
+                                 Total             Coulomb       Exchange+Corr.
+ Total two-electron terms    1145.75428073476    1236.05155485660     -90.29727412184
+   Hamiltonian  1........     590.94267938171     623.13015774210     -32.18747836039
+   Hamiltonian  2........     581.08106629795     612.92139711450     -31.84033081656
+  
+ SCFE: SCF energy: UDFT(b3lyp)      -615.38134120653 hartrees   iterations:   6
+  
+ 
+ Alpha HOMO energy:    -0.36451
+ Alpha LUMO energy:    -0.23069
+ 
+  Alpha Orbital energies (hartrees): 
+   -10.36402   -10.36401   -10.36394   -10.36390   -10.36359   -10.36356
+   -10.36352   -10.36349   -10.35802   -10.35787   -10.35751   -10.35737
+   -10.35650   -10.35613   -10.34341   -10.34341    -1.05920    -1.01681
+    -0.99848    -0.96288    -0.93377    -0.91207    -0.89538    -0.87553
+    -0.79646    -0.78911    -0.78900    -0.77246    -0.70497    -0.68655
+    -0.67794    -0.66718    -0.65384    -0.63146    -0.59939    -0.59934
+    -0.59708    -0.58096    -0.57427    -0.55913    -0.55583    -0.55206
+    -0.52819    -0.52687    -0.52519    -0.50624    -0.48763    -0.48296
+    -0.45943    -0.44069    -0.41592    -0.39196    -0.36451    -0.23069
+    -0.17672    -0.16392    -0.14372    -0.10230    -0.05032    -0.04166
+    -0.02595    -0.01983    -0.01483
+ 
+ 
+ Beta HOMO energy:    -0.39201
+ Beta LUMO energy:    -0.30897
+ 
+  Beta Orbital energies (hartrees): 
+   -10.36413   -10.36411   -10.36406   -10.36402   -10.36023   -10.36021
+   -10.36016   -10.36014   -10.35674   -10.35659   -10.35656   -10.35625
+   -10.35618   -10.35611   -10.34479   -10.34478    -1.05716    -1.01261
+    -0.99499    -0.95877    -0.92871    -0.90886    -0.89509    -0.86650
+    -0.79074    -0.78813    -0.78751    -0.76972    -0.70225    -0.68456
+    -0.67616    -0.66524    -0.65246    -0.62969    -0.59783    -0.59748
+    -0.59554    -0.58042    -0.56893    -0.55845    -0.55382    -0.55001
+    -0.52660    -0.52597    -0.51402    -0.49553    -0.48597    -0.48265
+    -0.44813    -0.42363    -0.40476    -0.39201    -0.30897    -0.20647
+    -0.17278    -0.15853    -0.13064    -0.09159    -0.04168    -0.04077
+    -0.02478    -0.01890
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1)      0.750
+    <S**2> ...     0.772
+  
+  
+  Peak memory usage:   6746 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:       63.9  user+sys:       63.9  wallclock:        5.1
+  
+  start of program der1a
+  
+  Peak memory usage:   4838 Mb
+  
+  end of program der1a
+   
+ Time(der1a)  user:        1.8  user+sys:        1.8  wallclock:        0.4
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       20.2  user+sys:       20.2  wallclock:        2.6
+  
+  start of program der1b
+  
+   
+  forces (hartrees/bohr) : total     
+   
+ atom  label           x              y              z
+ ---- --------   -------------  -------------  -------------
+    1 C1         -3.678839E-04   3.557148E-05   2.232098E-06
+    2 C2         -4.089993E-04  -7.427561E-05  -1.383818E-06
+    3 C3          5.032837E-04   3.831983E-05   7.996163E-06
+    4 C4         -4.653629E-05  -2.947457E-04   7.630742E-06
+    5 C5         -1.515163E-05  -1.517563E-04  -1.102975E-05
+    6 C6         -4.855908E-04   1.931053E-05  -1.550876E-05
+    7 C7          3.918616E-04  -7.920570E-05   1.090731E-05
+    8 C8          3.397854E-04   4.650452E-05  -6.520172E-06
+    9 C9          2.717940E-04   9.308371E-06   1.271262E-05
+   10 C10        -2.889043E-04   5.819869E-05  -1.263115E-05
+   11 C11        -5.933258E-04  -1.943078E-05   5.920861E-06
+   12 C12         5.969058E-04  -1.603126E-05  -5.072646E-07
+   13 C13         3.065798E-04   1.117405E-05   3.939168E-06
+   14 C14        -2.914826E-04  -1.991647E-05  -3.514865E-06
+   15 C15         4.414338E-05   9.466055E-05   1.784883E-06
+   16 C16         8.147384E-05   1.356980E-04  -6.363029E-06
+   17 H17         1.425982E-04   1.100673E-06  -1.372742E-06
+   18 H18        -1.585951E-04   1.412149E-04  -3.262959E-07
+   19 H19         1.445680E-04   1.633022E-04  -9.796387E-07
+   20 H20        -3.037587E-04  -6.751806E-06   4.066898E-06
+   21 H21         1.616063E-04   1.447581E-04  -6.166199E-07
+   22 H22        -1.437743E-04  -3.036524E-06   4.310212E-06
+   23 H23         1.303584E-04  -1.423573E-04  -3.823688E-06
+   24 H24        -1.774156E-04  -1.504360E-04   7.197494E-08
+   25 H25         3.341412E-04   4.497814E-05   3.020115E-07
+   26 H26        -1.730969E-04  -1.197786E-04   4.367446E-06
+ -------------   -------------  -------------  -------------
+     total       -5.415402E-06  -1.336221E-04   1.664585E-06
+   
+  Peak memory usage:   6739 Mb
+  
+  end of program der1b
+   
+ Time(der1b)  user:       24.3  user+sys:       24.3  wallclock:        2.1
+  
+  start of program geopt
+  
+ ----------------------------------------------------------------------------
+  Geometry optimization step  3
+  Total energy:      -615.38134120653 hartrees
+ ----------------------------------------------------------------------------
+  
+  energy change:          -4.3517E-04 .  (  5.0000E-05 )
+  gradient maximum:        6.9842E-04 .  (  4.5000E-04 )
+  gradient rms:            2.0280E-04 *  (  3.0000E-04 )
+  displacement maximum:    1.9840E-03 .  (  1.8000E-03 )
+  displacement rms:        5.8333E-04 *  (  1.2000E-03 )
+  
+  predicted energy change:  -5.5674E-06
+  step size:     0.00577
+  trust radius:  0.30000
+  
+  molecular structure not yet converged...
+  
+  center of mass moved by:
+     x:     1.0686E-05     y:    -4.8884E-05     z:    -2.4708E-05
+  
+  new geometry: 
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.5476366167      0.0069812738      0.0003860396 
+  C2            2.8512871427      1.2175980494      0.0003935226 
+  C3            1.4249913157      1.2445731793      0.0002572598 
+  C4            0.6940350415      2.4635066502      0.0002626321 
+  C5           -0.6945603598      2.4630570661      0.0001793578 
+  C6           -1.4249372119      1.2443118007      0.0000459366 
+  C7           -2.8509704869      1.2183932671     -0.0001932317 
+  C8           -3.5477481352      0.0082190813     -0.0004489342 
+  C9           -2.8515555235     -1.2025177357     -0.0004700852 
+  C10          -1.4251874923     -1.2299193189     -0.0001982547 
+  C11          -0.7102288792      0.0072108081      0.0000055301 
+  C12           0.7101690394      0.0074018298      0.0001296418 
+  C13           1.4250095011     -1.2296971661      0.0000880378 
+  C14           2.8510082839     -1.2033440532      0.0002268466 
+  C15           0.6946117321     -2.4484325540     -0.0000969897 
+  C16          -0.6940360531     -2.4487576064     -0.0002420509 
+  H17           4.6308129908      0.0066663085      0.0005110379 
+  H18           3.3952688985      2.1566525454      0.0005102894 
+  H19           1.2325266964      3.4053791482      0.0003473758 
+  H20          -1.2348039570      3.4035742573      0.0001263254 
+  H21          -3.3941731883      2.1579435472     -0.0001698540 
+  H22          -4.6309291245      0.0087489954     -0.0006680252 
+  H23          -3.3962243088     -2.1411752752     -0.0006526786 
+  H24           3.3945101557     -2.1426881972      0.0002053122 
+  H25           1.2346729132     -3.3892148083     -0.0001546601 
+  H26          -1.2324202562     -3.3906523698     -0.0004615000 
+   
+  nuclear repulsion energy.......     963.128749664 hartrees
+  -------------------------------------------------
+ /  end of geometry optimization iteration   3   /
+ -------------------------------------------------
+   
+  Peak memory usage:   4725 Mb
+  
+  end of program geopt
+   
+ Time(geopt)  user:        5.1  user+sys:        5.1  wallclock:        0.5
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    2.287E-04
+  number of canonical orbitals.....          162
+  Peak memory usage:   4838 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        4.0  user+sys:        4.0  wallclock:        0.6
+  
+  start of program probe
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        2.6  user+sys:        2.6  wallclock:        0.5
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -11        4        1
+  DFT-med.    -10        5        1
+  DFT-grad    -12        6        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       C5       C6       C7
+  grid # 1       97       97       99       97       97       99       97
+  grid # 2      334      339      358      339      339      360      339
+  grid # 3      230      230      254      230      230      254      230
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom        C8       C9      C10      C11      C12      C13      C14
+  grid # 1       97       97       99      101      101       99       97
+  grid # 2      334      341      358      368      368      358      339
+  grid # 3      230      232      253      256      254      254      230
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C15      C16      H17      H18      H19      H20      H21
+  grid # 1       97       97      118      118      118      118      118
+  grid # 2      339      339      451      444      446      446      444
+  grid # 3      230      230     1332     1156     1155     1153     1156
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H22      H23      H24      H25      H26    total
+  grid # 1      118      118      118      118      118     2748
+  grid # 2      451      444      444      446      446    10014
+  grid # 3     1330     1156     1156     1153     1155    15729
+  grid # 4     4304     4304     4304     4304     4304   111904
+  grid # 5     1192     1192     1192     1192     1192    30992
+  grid # 6     5226     5226     5226     5226     5226   135876
+   
+  Peak memory usage:   4782 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:       11.4  user+sys:       11.4  wallclock:        1.2
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       22.7  user+sys:       22.7  wallclock:        2.4
+  
+  start of program scf
+  
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  2  U    -615.38136171337           2.2E-05  1.6E-04
+etot    2  N  Y  2  U    -615.38136322507  1.5E-06  9.0E-06  1.3E-04
+etot    3  N  Y  2  U    -615.38136345056  2.3E-07  4.8E-06  8.6E-05
+etot    4  N  N  2  U    -615.38136376401  3.1E-07  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............     963.12874966440
+   (E)  Total one-electron terms.....   -2724.37080918319
+   (I)  Total two-electron terms.....    1145.86069575478
+   (L)  Electronic energy............   -1578.51011342841  (E+I)
+   (N)  Total energy.................    -615.38136376401  (A+L)
+   (O)  Gas phase energy.............    -615.38136376401
+  
+                                 Total             Coulomb       Exchange+Corr.
+ Total two-electron terms    1145.86069575478    1236.15882789198     -90.29813213720
+   Hamiltonian  1........     590.99673363111     623.18454887816     -32.18781524705
+   Hamiltonian  2........     581.13366087799     612.97427901381     -31.84061813582
+  
+ SCFE: SCF energy: UDFT(b3lyp)      -615.38136376401 hartrees   iterations:   4
+  
+ 
+ Alpha HOMO energy:    -0.36459
+ Alpha LUMO energy:    -0.23063
+ 
+  Alpha Orbital energies (hartrees): 
+   -10.36399   -10.36397   -10.36388   -10.36373   -10.36356   -10.36354
+   -10.36349   -10.36337   -10.35814   -10.35798   -10.35762   -10.35747
+   -10.35645   -10.35608   -10.34348   -10.34344    -1.05929    -1.01699
+    -0.99857    -0.96285    -0.93404    -0.91202    -0.89533    -0.87564
+    -0.79643    -0.78919    -0.78918    -0.77236    -0.70507    -0.68659
+    -0.67806    -0.66722    -0.65374    -0.63141    -0.59946    -0.59944
+    -0.59707    -0.58085    -0.57435    -0.55913    -0.55593    -0.55216
+    -0.52827    -0.52681    -0.52532    -0.50633    -0.48761    -0.48300
+    -0.45939    -0.44085    -0.41590    -0.39193    -0.36459    -0.23063
+    -0.17674    -0.16404    -0.14360    -0.10234    -0.05035    -0.04178
+    -0.02601    -0.01998    -0.01469
+ 
+ 
+ Beta HOMO energy:    -0.39197
+ Beta LUMO energy:    -0.30906
+ 
+  Beta Orbital energies (hartrees): 
+   -10.36410   -10.36407   -10.36397   -10.36383   -10.36024   -10.36021
+   -10.36015   -10.35999   -10.35686   -10.35671   -10.35651   -10.35636
+   -10.35621   -10.35614   -10.34485   -10.34482    -1.05725    -1.01280
+    -0.99507    -0.95875    -0.92898    -0.90880    -0.89504    -0.86662
+    -0.79071    -0.78819    -0.78770    -0.76963    -0.70235    -0.68460
+    -0.67628    -0.66528    -0.65236    -0.62965    -0.59789    -0.59758
+    -0.59552    -0.58032    -0.56900    -0.55844    -0.55392    -0.55012
+    -0.52668    -0.52591    -0.51416    -0.49559    -0.48596    -0.48269
+    -0.44809    -0.42380    -0.40473    -0.39197    -0.30906    -0.20643
+    -0.17280    -0.15864    -0.13052    -0.09165    -0.04169    -0.04090
+    -0.02483    -0.01905
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1)      0.750
+    <S**2> ...     0.772
+  
+  
+  Peak memory usage:   6746 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:       51.9  user+sys:       51.9  wallclock:        3.9
+  
+  start of program der1a
+  
+  Peak memory usage:   4838 Mb
+  
+  end of program der1a
+   
+ Time(der1a)  user:        1.7  user+sys:        1.7  wallclock:        0.5
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       21.0  user+sys:       21.0  wallclock:        2.5
+  
+  start of program der1b
+  
+   
+  forces (hartrees/bohr) : total     
+   
+ atom  label           x              y              z
+ ---- --------   -------------  -------------  -------------
+    1 C1          6.849578E-06   6.564522E-05   1.658307E-06
+    2 C2         -1.844133E-06  -5.392004E-05  -8.534222E-07
+    3 C3         -9.636478E-05   1.060776E-04   3.051454E-06
+    4 C4         -6.353648E-05   7.211705E-05   2.761568E-06
+    5 C5          2.267361E-04   1.407653E-05  -4.907892E-06
+    6 C6          1.220912E-04  -2.449781E-05  -8.369251E-06
+    7 C7         -1.109206E-04  -9.037126E-05   4.215139E-06
+    8 C8          1.560099E-05  -4.503698E-05  -4.214061E-06
+    9 C9         -6.202911E-05   5.106497E-05   7.707744E-06
+   10 C10         1.110670E-04  -3.585617E-05  -7.184108E-06
+   11 C11         6.018805E-05  -3.693229E-05   4.377392E-06
+   12 C12        -8.289429E-05   2.770399E-05  -1.786525E-06
+   13 C13        -1.599773E-04   1.243787E-04   2.425647E-06
+   14 C14         2.411734E-04   1.491155E-04  -1.216035E-06
+   15 C15        -4.688456E-04   2.442179E-04   8.774476E-07
+   16 C16         9.641598E-05   1.241871E-05  -3.105020E-06
+   17 H17         2.301006E-06   2.435067E-05  -2.724433E-06
+   18 H18        -6.337823E-07  -3.877393E-06  -3.692848E-07
+   19 H19         1.437582E-04  -2.134573E-04  -1.000026E-06
+   20 H20        -1.861953E-05  -4.114742E-05   3.229918E-06
+   21 H21        -1.443643E-05  -4.232454E-05  -5.566922E-07
+   22 H22         6.727338E-06  -4.738373E-05   2.789706E-06
+   23 H23         5.243575E-05  -3.877098E-05  -7.594449E-07
+   24 H24         2.646251E-05   2.030257E-06   1.838048E-07
+   25 H25        -4.423395E-04  -5.610256E-04   1.506177E-06
+   26 H26         1.054127E-05  -2.064073E-05   2.843170E-06
+ -------------   -------------  -------------  -------------
+     total       -4.000931E-04  -3.620451E-04   5.812805E-07
+   
+  Peak memory usage:   6739 Mb
+  
+  end of program der1b
+   
+ Time(der1b)  user:       26.9  user+sys:       26.9  wallclock:        2.1
+  
+  start of program geopt
+  
+ ----------------------------------------------------------------------------
+  Geometry optimization step  4
+  Total energy:      -615.38136376401 hartrees
+ ----------------------------------------------------------------------------
+  
+  energy change:          -2.2557E-05 *  (  5.0000E-05 )
+  gradient maximum:        1.2737E-03 .  (  4.5000E-04 )
+  gradient rms:            2.2233E-04 *  (  3.0000E-04 )
+  displacement maximum:    1.8632E-03 .  (  1.8000E-03 )
+  displacement rms:        3.4963E-04 *  (  1.2000E-03 )
+  
+  predicted energy change:  -3.0192E-06
+  step size:     0.00346
+  trust radius:  0.30000
+  
+  molecular structure not yet converged...
+  
+  center of mass moved by:
+     x:     1.2769E-04     y:     1.1010E-04     z:    -1.7420E-05
+  
+  new geometry: 
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.5474442052      0.0076187199      0.0003998037 
+  C2            2.8508900998      1.2180319489      0.0004379830 
+  C3            1.4250001633      1.2445929785      0.0002930717 
+  C4            0.6942855071      2.4634201449      0.0002867271 
+  C5           -0.6943364100      2.4629980543      0.0001361344 
+  C6           -1.4247209481      1.2442182487     -0.0000173717 
+  C7           -2.8505860410      1.2181433847     -0.0002010412 
+  C8           -3.5473415532      0.0079291841     -0.0004105312 
+  C9           -2.8511135372     -1.2026749052     -0.0004557529 
+  C10          -1.4251237005     -1.2297597069     -0.0002402738 
+  C11          -0.7101526991      0.0071953783     -0.0000351520 
+  C12           0.7103457747      0.0073374071      0.0001287214 
+  C13           1.4249341468     -1.2299115065      0.0000982074 
+  C14           2.8510862274     -1.2030412374      0.0002314078 
+  C15           0.6936811548     -2.4487697371     -0.0000862934 
+  C16          -0.6946067889     -2.4486048961     -0.0002623566 
+  H17           4.6307244315      0.0078130828      0.0004958562 
+  H18           3.3941720057      2.1575465635      0.0005742439 
+  H19           1.2338738215      3.4047034952      0.0004009840 
+  H20          -1.2353460547      3.4031531197      0.0000986392 
+  H21          -3.3934376033      2.1578930146     -0.0001702102 
+  H22          -4.6305864281      0.0082013114     -0.0005527621 
+  H23          -3.3949144669     -2.1418607528     -0.0006308350 
+  H24           3.3945846686     -2.1424131038      0.0001983357 
+  H25           1.2317138949     -3.3911074039     -0.0001112445 
+  H26          -1.2334612781     -3.3903488973     -0.0004477343 
+   
+  nuclear repulsion energy.......     963.170325179 hartrees
+  -------------------------------------------------
+ /  end of geometry optimization iteration   4   /
+ -------------------------------------------------
+   
+  Peak memory usage:   4725 Mb
+  
+  end of program geopt
+   
+ Time(geopt)  user:        5.2  user+sys:        5.2  wallclock:        0.5
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    2.287E-04
+  number of canonical orbitals.....          162
+  Peak memory usage:   4838 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        2.6  user+sys:        2.6  wallclock:        0.5
+  
+  start of program probe
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        1.7  user+sys:        1.7  wallclock:        0.4
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -11        4        1
+  DFT-med.    -10        5        1
+  DFT-grad    -12        6        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       C5       C6       C7
+  grid # 1       97       97       99       97       97       99       97
+  grid # 2      334      339      360      339      339      358      339
+  grid # 3      230      230      250      230      230      254      230
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom        C8       C9      C10      C11      C12      C13      C14
+  grid # 1       97       97       99      101      101       99       97
+  grid # 2      334      339      358      368      368      360      339
+  grid # 3      230      230      254      256      254      252      230
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C15      C16      H17      H18      H19      H20      H21
+  grid # 1       97       97      118      118      118      118      118
+  grid # 2      339      339      451      444      446      444      444
+  grid # 3      230      230     1334     1156     1153     1153     1156
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H22      H23      H24      H25      H26    total
+  grid # 1      118      118      118      118      118     2748
+  grid # 2      451      444      444      446      446    10012
+  grid # 3     1334     1156     1156     1153     1153    15724
+  grid # 4     4304     4304     4304     4304     4304   111904
+  grid # 5     1192     1192     1192     1192     1192    30992
+  grid # 6     5226     5226     5226     5226     5226   135876
+   
+  Peak memory usage:   4782 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:       11.0  user+sys:       11.0  wallclock:        1.3
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       26.3  user+sys:       26.3  wallclock:        2.4
+  
+  start of program scf
+  
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  2  U    -615.38136878052           1.5E-05  7.1E-05
+etot    2  N  Y  2  U    -615.38136916262  3.8E-07  9.3E-06  1.2E-04
+etot    3  N  Y  2  U    -615.38136947539  3.1E-07  4.5E-06  9.4E-05
+etot    4  N  N  2  U    -615.38136976325  2.9E-07  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............     963.17032517921
+   (E)  Total one-electron terms.....   -2724.45270632631
+   (I)  Total two-electron terms.....    1145.90101138384
+   (L)  Electronic energy............   -1578.55169494246  (E+I)
+   (N)  Total energy.................    -615.38136976325  (A+L)
+   (O)  Gas phase energy.............    -615.38136976325
+  
+                                 Total             Coulomb       Exchange+Corr.
+ Total two-electron terms    1145.90101138384    1236.19953833365     -90.29852694980
+   Hamiltonian  1........     591.01727212918     623.20524305767     -32.18797092848
+   Hamiltonian  2........     581.15354453002     612.99429527598     -31.84075074597
+  
+ SCFE: SCF energy: UDFT(b3lyp)      -615.38136976325 hartrees   iterations:   4
+  
+ 
+ Alpha HOMO energy:    -0.36463
+ Alpha LUMO energy:    -0.23060
+ 
+  Alpha Orbital energies (hartrees): 
+   -10.36396   -10.36389   -10.36388   -10.36376   -10.36357   -10.36348
+   -10.36347   -10.36341   -10.35810   -10.35801   -10.35760   -10.35751
+   -10.35646   -10.35609   -10.34351   -10.34345    -1.05933    -1.01705
+    -0.99861    -0.96287    -0.93409    -0.91204    -0.89532    -0.87570
+    -0.79640    -0.78923    -0.78919    -0.77237    -0.70509    -0.68662
+    -0.67806    -0.66722    -0.65373    -0.63140    -0.59950    -0.59947
+    -0.59705    -0.58082    -0.57438    -0.55910    -0.55595    -0.55218
+    -0.52830    -0.52679    -0.52536    -0.50636    -0.48759    -0.48302
+    -0.45940    -0.44089    -0.41593    -0.39192    -0.36463    -0.23060
+    -0.17675    -0.16404    -0.14358    -0.10235    -0.05033    -0.04183
+    -0.02602    -0.02005    -0.01465
+ 
+ 
+ Beta HOMO energy:    -0.39196
+ Beta LUMO energy:    -0.30910
+ 
+  Beta Orbital energies (hartrees): 
+   -10.36406   -10.36399   -10.36398   -10.36384   -10.36021   -10.36016
+   -10.36012   -10.36011   -10.35683   -10.35674   -10.35652   -10.35634
+   -10.35624   -10.35614   -10.34489   -10.34482    -1.05729    -1.01285
+    -0.99511    -0.95876    -0.92903    -0.90882    -0.89502    -0.86668
+    -0.79069    -0.78823    -0.78772    -0.76963    -0.70237    -0.68464
+    -0.67629    -0.66527    -0.65236    -0.62964    -0.59793    -0.59761
+    -0.59550    -0.58030    -0.56903    -0.55841    -0.55394    -0.55014
+    -0.52672    -0.52588    -0.51420    -0.49562    -0.48594    -0.48271
+    -0.44809    -0.42383    -0.40475    -0.39196    -0.30910    -0.20641
+    -0.17281    -0.15864    -0.13050    -0.09165    -0.04167    -0.04094
+    -0.02484    -0.01912
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1)      0.750
+    <S**2> ...     0.772
+  
+  
+  Peak memory usage:   6746 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:       50.8  user+sys:       50.8  wallclock:        4.0
+  
+  start of program der1a
+  
+  Peak memory usage:   4838 Mb
+  
+  end of program der1a
+   
+ Time(der1a)  user:        1.7  user+sys:        1.7  wallclock:        0.4
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       20.7  user+sys:       20.7  wallclock:        2.5
+  
+  start of program der1b
+  
+   
+  forces (hartrees/bohr) : total     
+   
+ atom  label           x              y              z
+ ---- --------   -------------  -------------  -------------
+    1 C1          8.243025E-05  -7.584476E-05   3.277251E-07
+    2 C2          2.173096E-04  -3.520147E-05  -5.763980E-07
+    3 C3         -2.905604E-04  -7.066914E-05   4.450314E-07
+    4 C4         -1.017220E-04   1.663800E-04  -3.119390E-07
+    5 C5          1.175120E-04   8.523571E-05  -2.014661E-07
+    6 C6          2.305550E-04  -4.309240E-05  -1.422555E-06
+    7 C7         -2.247811E-04  -3.236475E-05   1.758479E-06
+    8 C8         -1.492554E-04  -1.463668E-05  -1.244705E-06
+    9 C9         -1.815640E-04   4.880436E-05   3.867611E-06
+   10 C10         1.583705E-04   2.690912E-05  -2.244975E-06
+   11 C11         2.428161E-04  -3.570591E-05   2.456805E-06
+   12 C12        -2.552880E-04  -7.145014E-05  -1.442237E-06
+   13 C13        -1.630259E-04  -9.790631E-05   5.478045E-07
+   14 C14         7.873569E-05   5.599870E-05   1.654117E-07
+   15 C15         1.618440E-04  -3.716585E-05  -8.923443E-07
+   16 C16         2.721403E-05  -5.991377E-05  -8.201164E-07
+   17 H17        -7.423729E-05  -1.525422E-05  -1.495124E-06
+   18 H18         5.565124E-05  -5.876054E-05  -2.932880E-07
+   19 H19         1.427942E-05  -1.442494E-04  -4.362378E-07
+   20 H20         7.734183E-05  -1.330569E-05   1.957321E-06
+   21 H21        -7.942042E-05  -5.775005E-05  -4.761149E-07
+   22 H22         4.334716E-05  -6.451173E-06  -6.477008E-08
+   23 H23        -9.542810E-05   4.720026E-05  -6.467526E-07
+   24 H24         5.045748E-05   5.992958E-05   2.718829E-07
+   25 H25        -9.100172E-06   1.577211E-04   3.748849E-08
+   26 H26         9.524039E-05   3.872764E-06   1.404744E-06
+ -------------   -------------  -------------  -------------
+     total        2.872200E-05  -2.176706E-04   6.712806E-07
+   
+  Peak memory usage:   6739 Mb
+  
+  end of program der1b
+   
+ Time(der1b)  user:       26.6  user+sys:       26.6  wallclock:        2.2
+  
+  start of program geopt
+  
+ ----------------------------------------------------------------------------
+  Geometry optimization step  5
+  Total energy:      -615.38136976325 hartrees
+ ----------------------------------------------------------------------------
+  
+  energy change:          -5.9992E-06 *  (  5.0000E-05 )
+  gradient maximum:        3.7457E-04 *  (  4.5000E-04 )
+  gradient rms:            1.0079E-04 *  (  3.0000E-04 )
+  displacement maximum:    9.2442E-04 *  (  1.8000E-03 )
+  displacement rms:        2.4388E-04 *  (  1.2000E-03 )
+  
+  predicted energy change:  -1.1098E-06
+  step size:     0.00241
+  trust radius:  0.30000
+  
+  ********************************************************
+  **           Geometry optimization complete           **
+  ********************************************************
+  
+  Checking the geometry optimization convergence pattern ...
+  
+  best                    worst
+  ==0=====1=====2=====3=====4==
+    ^                          
+  
+  Convergence category 0: monotonic convergence.
+  Geometry optimization was OK.
+  
+  Number of imaginary frequencies:   0
+  
+  center of mass moved by:
+     x:     0.0000E+00     y:     0.0000E+00     z:     0.0000E+00
+  
+  final geometry: 
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.5474442052      0.0076187199      0.0003998037 
+  C2            2.8508900998      1.2180319489      0.0004379830 
+  C3            1.4250001633      1.2445929785      0.0002930717 
+  C4            0.6942855071      2.4634201449      0.0002867271 
+  C5           -0.6943364100      2.4629980543      0.0001361344 
+  C6           -1.4247209481      1.2442182487     -0.0000173717 
+  C7           -2.8505860410      1.2181433847     -0.0002010412 
+  C8           -3.5473415532      0.0079291841     -0.0004105312 
+  C9           -2.8511135372     -1.2026749052     -0.0004557529 
+  C10          -1.4251237005     -1.2297597069     -0.0002402738 
+  C11          -0.7101526991      0.0071953783     -0.0000351520 
+  C12           0.7103457747      0.0073374071      0.0001287214 
+  C13           1.4249341468     -1.2299115065      0.0000982074 
+  C14           2.8510862274     -1.2030412374      0.0002314078 
+  C15           0.6936811548     -2.4487697371     -0.0000862934 
+  C16          -0.6946067889     -2.4486048961     -0.0002623566 
+  H17           4.6307244315      0.0078130828      0.0004958562 
+  H18           3.3941720057      2.1575465635      0.0005742439 
+  H19           1.2338738215      3.4047034952      0.0004009840 
+  H20          -1.2353460547      3.4031531197      0.0000986392 
+  H21          -3.3934376033      2.1578930146     -0.0001702102 
+  H22          -4.6305864281      0.0082013114     -0.0005527621 
+  H23          -3.3949144669     -2.1418607528     -0.0006308350 
+  H24           3.3945846686     -2.1424131038      0.0001983357 
+  H25           1.2317138949     -3.3911074039     -0.0001112445 
+  H26          -1.2334612781     -3.3903488973     -0.0004477343 
+   
+  principal moments of inertia:
+        amu*angstrom^2:      498.47697      920.65173     1419.12871
+                g*cm^2: 8.27740383E-38 1.52877798E-37 2.35651836E-37
+   
+  rotational constants:
+               cm^(-1):      0.03381827      0.01831054      0.01187886
+                   GHz:      1.01384625      0.54893614      0.35611922
+   
+  nuclear repulsion energy.......     963.170325179 hartrees
+  -------------------------------------------------
+ /  end of geometry optimization iteration   5   /
+ -------------------------------------------------
+   
+  Peak memory usage:   4820 Mb
+  
+  end of program geopt
+   
+ Time(geopt)  user:       10.7  user+sys:       10.7  wallclock:        0.9
+  
+  start of program ch
+  
+  Moments from quantum mechanical wavefunction:
+  Dipole Moments  (Debye)
+     X=     0.0006     Y=    -0.0029     Z=    -0.0002  Tot=     0.0030
+  
+  gridpoints used for charge fit        14912
+    out of a possible maximum of        15724
+  
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               yes
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+  Atomic charges from electrostatic potential: 
+   
+ Atom       C1           C2           C3           C4           C5      
+ Charge   -0.07594     -0.11269      0.14279     -0.13944     -0.13846
+   
+ Atom       C6           C7           C8           C9           C10     
+ Charge    0.14222     -0.11277     -0.07562     -0.11247      0.14220
+   
+ Atom       C11          C12          C13          C14          C15     
+ Charge   -0.01303     -0.01312      0.14252     -0.11240     -0.13932
+   
+ Atom       C16          H17          H18          H19          H20     
+ Charge   -0.13857      0.15370      0.15827      0.16859      0.16831
+   
+ Atom       H21          H22          H23          H24          H25     
+ Charge    0.15830      0.15355      0.15820      0.15821      0.16858
+   
+ Atom       H26     
+ Charge    0.16841
+  
+  sum of atomic charges:     1.000000
+   
+ RMS Error   6.94E-04 hartrees
+ 
+  
+  Moments from electrostatic potential charges:
+  Dipole Moments  (Debye)
+     X=     0.0006     Y=    -0.0029     Z=    -0.0002  Tot=     0.0030
+  
+  Peak memory usage:   4827 Mb
+  
+  end of program ch
+   
+ Time(ch)  user:        7.1  user+sys:        7.1  wallclock:        2.0
+
+ Total cpu seconds     user:     797.503   user+sys:     797.503
+  
+ Total elapsed time:    92 seconds
+
+Job Pyrene_1 completed on n054 at Sun Jan  8 22:28:38 2017

@@ -1,0 +1,81 @@
+==============================
+*** Open Babel Warning  in ReadMolecule
+  WARNING: Problems reading a MDL file
+Invalid bond specification, atom numbers or bond order are wrong;
+each should be in a field of three characters.
+
+==============================
+*** Open Babel Warning  in ReadMolecule
+  WARNING: Problems reading a MDL file
+Not enough bonds to match bond count (19) in counts line
+
+==============================
+*** Open Babel Warning  in ReadMolecule
+  WARNING: Problems reading a MDL file
+Not enough atoms to match atom count (18) in counts line
+
+==============================
+*** Open Babel Warning  in ReadMolecule
+  WARNING: Problems reading a MDL file
+Missing data following atom specification in atom block
+
+C10H8-nofilter.mol
+486354
+C10H8-no3.mol
+383394
+C10H8-no32.mol
+19555
+C14H10-no32-ring5-10.mol
+20064
+C10H8-no32-ring5-10.mol
+25
+C14H10-no2-ring.mol
+32887953
+C14H10-no32.mol
+10513846
+C14H10-ring5-10.mol
+2747119
+C18H10-no2-ring.mol
+5600188
+C18H10-no32.mol
+145362
+C18H10-ring5-18.mol
+292096
+C18H10-no32-ring5-10.mol
+60852
+C14H10-norest.mol
+11036927
+C18H10-norest.mol
+3032781
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n028>
+Subject: Job 168133: <python count.py> Done
+
+Job <python count.py> was submitted from host <u01> by user <cacos040> in cluster <panther>.
+Job was executed on host(s) <n028>, in queue <normal>, as user <cacos040> in cluster <panther>.
+</home/cacos040> was used as the home directory.
+</home/cacos040/molgen> was used as the working directory.
+Started at Wed May 10 12:30:18 2017
+Results reported at Wed May 10 20:29:48 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python count.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  28776.94 sec.
+    Max Memory :        39 MB
+    Max Swap   :       418 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+

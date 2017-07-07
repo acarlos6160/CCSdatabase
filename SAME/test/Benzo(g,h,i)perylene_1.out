@@ -1,0 +1,59 @@
+Job Benzo(g,h,i)perylene_1 started on n047 at Sun Jan  8 22:24:26 2017
+jobid: u01-0-58730260
+
+  +--------------------------------------------------------------------+
+  |  Jaguar version 9.3, release  15                                   |
+  |                                                                    |
+  |  Copyright Schrodinger, Inc.                                       |
+  |  All Rights Reserved.                                              |
+  |                                                                    |
+  |  The following have contributed to Jaguar (listed alphabetically): |
+  |  Mike Beachy, Art Bochevarov, Dale Braden, Yixiang Cao,            |
+  |  Chris Cortis, Rich Friesner, Bill Goddard, Hod Greeley,           |
+  |  Tom Hughes, Leif Jacobson, Jean-Marc Langlois,                    |
+  |  Daniel Mainz, Rob Murphy, Dean Philipp,                           |
+  |  Tom Pollard, Murco Ringnalda, Mark Watson.                        |
+  |                                                                    |
+  |  Use of this program should be acknowledged in publications as:    |
+  |                                                                    |
+  |  Jaguar, version 9.3, Schrodinger, Inc., New York, NY, 2016.       |
+  |                                                                    |
+  |  A. D. Bochevarov, E. Harder, T. F. Hughes, J. R. Greenwood,       |
+  |  D. A. Braden, D. M. Philipp, D. Rinaldo, M. D. Halls,             |
+  |  J. Zhang, R. A. Friesner, "Jaguar: A High-Performance Quantum     |
+  |  Chemistry Software Program with Strengths in Life and Materials   |
+  |  Sciences", Int. J. Quantum Chem., 2013, 113(18), 2110-2142.       |
+  +--------------------------------------------------------------------+
+Date:          Sun 08 Jan 2017 22:24:27
+SCHRODINGER:   /home/applications/Schrodinger_Suites_2016-3
+uname -a:      Linux n047 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+FQDN:          n047.panther.net
+Main memory:   48372 MB
+Free disk:     39869510 MB
+Host ID:       40f2e94e2a9e
+Machine name:  n047
+OS:            CentOS release 6.5 (Final)
+CPU:           Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz
+Processors:    32
+Memory:        50722500 kB
+Swap:          0 kB
+kernel:        2.6.32-431.el6.x86_64
+glibc:         2.12
+Product:       aacg-v17015-Linux-x86_64 (4d5e4891b95edc3974c2f897a8f2bbfda884f701)
+Product:       bioluminate-v24015-Linux-x86_64 (c7e9ddecc01a31ee6f1f49fd0866fec40be878d9)
+Product:       canvas-v29015-Linux-x86_64 (eefcb58a94f04937200c16cc72ce65c92553d20f)
+Product:       combiglide-v42015-Linux-x86_64 (649832a5082f66cb6c92b108724a8a540362cfc8)
+Product:       desmond-v47015-Linux-x86_64 (cd195a3f6f7c69c2e4a7d397341063b5fd7f9fa7)
+Product:       epik-v37015-Linux-x86_64 (3a54a2d4762d4d26ff3f381b6eba74ffec5b135e)
+Product:       glide-v72015-Linux-x86_64 (7bda026d4634ee2331fde20a7d677e0633c1458c)
+Product:       impact-v72015-Linux-x86_64 (78357f574412e54dad3121cb0c6c311417a07a40)
+Product:       jaguar-v93015-Linux-x86_64 (c979cf15abdb397bfe3d00837bb358b46bdb9998)
+Product:       knime-v35015-Linux-x86_64 (fe637e1275d976d9c56b403a2c6666f075125988)
+Product:       macromodel-v113015-Linux-x86_64 (c5bdb4b8bf816c7fdd53141b85dce76bf6aeaad9)
+Product:       maestro-v107015-Linux-x86_64 (c112f21020c11ad6d55a6f13bf2f9e71852ad421)
+Product:       mcpro-v43015-Linux-x86_64 (a66fce8e103e80d6ab062d78a9dd96a664b153ee)
+Product:       mmshare-v35015-Linux-x86_64 (6deaa6dca9205019a9800e1f617340ea168c2739)
+Product:       phase-v48015-Linux-x86_64 (5f5e3df18b3bb719c7300fee47d9ebb55737e27a)
+Product:       pldb-v35015-Linux-x86_64 (5fa9a4c6731880caf6cab7034454a839dd077a79)
+Product:       psp-v45015-Linux-x86_64 (af3c2b23dcf79d506aa27a3bffa4cca73631134b)
+Product:       qikprop-v49015-Linux-x86_64 (5521a265f711fdfde92d556bb69a9e3f62beb1bd)

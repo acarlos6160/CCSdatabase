@@ -1,0 +1,6 @@
+CREATE TABLE ChemicalFormula (
+CFID INTEGER,
+Name VARCHAR(50),
+Mass DECIMAL,
+PRIMARY KEY (CFID)
+)

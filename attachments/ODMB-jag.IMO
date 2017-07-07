@@ -1,0 +1,63 @@
+IMoS v1.06 RESULTS FILE 
+ 
+
+File: ./filefolder//ODMB-jag.mfj and excel sheet(if available): 1
+
+Number of atoms: 16
+Is it simplified?: 0
+
+PARTIAL CHARGES ON PDB FILE
+
+Molecular Weight:    106.00 Da
+Total Charge: 1
+
+
+Method used: Trajectory Method
+n_rotations: 3 
+Gas molecules per rotation: 300000
+Lennard-Jones?(1 for yes): 1
+Cutoff?(1 for yes): 0
+TMSimplified?: 1
+The mean molecular cross sectional area H&B for Model 1 is 121.9478 A^2 and the Mobility is 1.9772  cm^2/Vs.
+Time taken is a mere 9.2648 seconds 
+The mean molecular cross sectional area for Model 1 is 128.534 A^2 and the Mobility is 1.8759  cm^2/Vs.
+Time taken is a mere 9.2648 seconds 
+
+PARAMETERS USED: 
+
+Gas: N2 
+Reduction Coef: 1.000 
+Molecular mass of Gas: 28.00 Da
+Alpha polarization: 1.70 A3
+Radius of gas: 1.50 A
+Temperature: 300 K
+Pressure: 101325 Pa
+Accommodation coefficient: 9.200000e-01
+Diffuse Scattering?: 1
+Reemission_vel(mean): 516.84 m/s 92% Maxwell Distributed
+Timestep: 100
+Boxdomain(one charge): 16 A
+
+Lennard Jones parameters (if used)
+Atom eps(J*10^21)sigma(A)
+H    0.31        2.89
+C    0.73        3.85
+N    0.48        3.66
+O    0.42        3.50
+F    0.35        3.36
+Cs   0.58        4.20
+Na   0.42        3.50
+Cl   0.42        3.50
+I    0.63        5.40
+K    0.42        3.50
+Rb   0.42        3.50
+P    0.42        3.50
+Ca   0.42        3.50
+Li   0.42        3.50
+S    0.42        3.50
+Other0.42        3.50
+
+  SUMMARY
+
+ COLLISION CROSS SECTION      MOBILITY
+ 128.534010 A^2          1.875883 cm^2/Vs 

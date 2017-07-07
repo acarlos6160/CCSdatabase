@@ -1,0 +1,393 @@
+Job Pentacene_1 started on n054 at Sun Jan  8 22:25:56 2017
+jobid: u01-0-58730284
+
+  +--------------------------------------------------------------------+
+  |  Jaguar version 9.3, release  15                                   |
+  |                                                                    |
+  |  Copyright Schrodinger, Inc.                                       |
+  |  All Rights Reserved.                                              |
+  |                                                                    |
+  |  The following have contributed to Jaguar (listed alphabetically): |
+  |  Mike Beachy, Art Bochevarov, Dale Braden, Yixiang Cao,            |
+  |  Chris Cortis, Rich Friesner, Bill Goddard, Hod Greeley,           |
+  |  Tom Hughes, Leif Jacobson, Jean-Marc Langlois,                    |
+  |  Daniel Mainz, Rob Murphy, Dean Philipp,                           |
+  |  Tom Pollard, Murco Ringnalda, Mark Watson.                        |
+  |                                                                    |
+  |  Use of this program should be acknowledged in publications as:    |
+  |                                                                    |
+  |  Jaguar, version 9.3, Schrodinger, Inc., New York, NY, 2016.       |
+  |                                                                    |
+  |  A. D. Bochevarov, E. Harder, T. F. Hughes, J. R. Greenwood,       |
+  |  D. A. Braden, D. M. Philipp, D. Rinaldo, M. D. Halls,             |
+  |  J. Zhang, R. A. Friesner, "Jaguar: A High-Performance Quantum     |
+  |  Chemistry Software Program with Strengths in Life and Materials   |
+  |  Sciences", Int. J. Quantum Chem., 2013, 113(18), 2110-2142.       |
+  +--------------------------------------------------------------------+
+  
+  start of program pre
+  
+  Job name: Pentacene_1
+  Executables used: /home/applications/Schrodinger_Suites_2016-3/jaguar-v9.3/bin/Linux-x86_64
+  Temporary files : /scratch/Schrodinger_Suites/pbeni001/Pentacene_1#u01-0-58730284
+  Maestro file (input):  Pentacene_1.mae
+  Maestro file (output): Pentacene_1.01.mae
+  
+  basis set:             6-31g                           
+  net molecular charge:    1
+  multiplicity:            2
+  
+  Using up to  16 threads per process
+  
+  number of basis functions....          226
+  
+ Input geometry:
+                                   angstroms
+  atom               x                 y                 z
+  C1           -3.6008615000      0.7031898000      0.3067338000 
+  C2           -3.6003552000     -0.6926420000      0.3112234000 
+  C3           -2.4325829000     -1.3934317000      0.0347990000 
+  C4           -1.2586073000     -0.6839222000     -0.2213920000 
+  C5           -0.0743527000     -1.3718666000     -0.4458568000 
+  C6            1.1299717000     -0.6701123000     -0.4331612000 
+  C7            2.3693376000     -1.3458793000     -0.5782467000 
+  C8            3.7003704000     -0.7251686000     -0.4815935000 
+  C9            5.1179003000     -1.3495191000     -0.3681983000 
+  C10           5.2369681000     -2.4334620000      0.5114822000 
+  C11           6.3659987000     -3.3012370000      0.8206987000 
+  C12           6.1601392000     -4.6692765000      0.7918419000 
+  C13           4.8475275000     -5.0305385000      0.7668858000 
+  C14           3.8859973000     -3.9648060000      1.0877510000 
+  C15           4.2309706000     -2.4001429000      1.2682827000 
+  C16           3.8830273000     -0.6632294000      1.4986167000 
+  C17           3.5271257000      0.2437479000      0.3790009000 
+  C18           2.4016934000      1.2009911000      0.1068764000 
+  C19           1.1505821000      0.6966878000     -0.2738515000 
+  C20          -0.0495897000      1.4239594000     -0.4141189000 
+  C21          -1.2512916000      0.7283194000     -0.2342668000 
+  C22          -2.4371639000      1.4163799000      0.0199842000 
+  H23          -4.5109373000      1.2452330000      0.5414860000 
+  H24          -4.5087256000     -1.2397515000      0.5417549000 
+  H25          -2.4274740000     -2.4802951000      0.0693977000 
+  H26          -0.0674913000     -2.4435196000     -0.6028400000 
+  H27           2.2810798000     -2.4139121000     -0.3700274000 
+  H28           5.9858210000     -0.7282626000     -0.0568021000 
+  H29           7.3097769000     -2.8779687000      1.0865519000 
+  H30           6.9943213000     -5.3754660000      0.7607112000 
+  H31           4.5969144000     -6.0759769000      0.5393731000 
+  H32           2.8540371000     -4.3019044000      0.9680668000 
+  H33           4.8928770000     -0.0861058000      1.6694024000 
+  H34           2.5001052000      2.2927036000      0.1579455000 
+  H35          -0.0478027000      2.4993631000     -0.5598922000 
+  H36          -2.4412041000      2.5015534000      0.0610698000 
+   
+  principal moments of inertia:
+        amu*angstrom^2:      612.24007     3368.07720     3834.61829
+                g*cm^2: 1.01664843E-37 5.59282308E-37 6.36753269E-37
+   
+  rotational constants:
+               cm^(-1):      0.02753434      0.00500512      0.00439617
+                   GHz:      0.82545889      0.15004971      0.13179382
+   
+  Molecular weight:     278.11 amu
+   
+  Stoichiometry: C22H14
+  Molecular Point Group: C1      
+  Point Group used: C1
+  
+ 
+Number of optimization coordinates:   132
+Number of independent coordinates:    132
+Number of non-redundant coordinates:  102
+Number of frozen coordinates:           0
+Number of harmonic constraints:         0
+ 
+Number of geometric degrees of freedom:   102
+Maximum geometric degrees of freedom:     102
+ " " " " " excluding dummy atoms:         102
+ 
+  nuclear repulsion energy.......    1538.451915030 hartrees
+ 
+ Non-default options chosen:
+   SCF calculation type: UDFT(b3lyp)                 
+   UDFT=Becke_3_Parameter/HF+Slater+Becke88+VWN+LYP (B3LYP)
+   Geometry will be optimized in redundant internal coordinates
+   Electrostatic potential fit to point charges on atomic centers
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               yes
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+ Temporary integer options set:
+     73=  2
+  
+  Peak memory usage:   4803 Mb
+  
+  end of program pre
+   
+ Time(pre)  user:        7.4  user+sys:        7.4  wallclock:        0.9
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    3.689E-04
+  number of canonical orbitals.....          225
+  Peak memory usage:   4838 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        3.0  user+sys:        3.0  wallclock:        0.5
+  
+  start of program hfig
+  
+  initial wavefunction generated automatically from atomic wavefunctions
+  
+  -------------------
+  Alpha orbital space
+  -------------------
+ 
+  Irreducible     Total no   No of occupied orbitals 
+  representation  orbitals   Shell_1  Shell_2    ...
+  No Symm          225         73
+  ------------------------
+  Orbital occupation/shell    1.000
+ 
+  ------------------
+  Beta orbital space
+  ------------------
+ 
+  Irreducible     Total no   No of occupied orbitals 
+  representation  orbitals   Shell_1  Shell_2    ...
+  No Symm          225         72
+  ------------------------
+  Orbital occupation/shell    1.000
+ 
+  
+  
+    Unrestricted Spin Properties ...
+    Sz*(Sz+1) ..............     0.750
+    <S**2> of initial guess      0.750
+  
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program hfig
+   
+ Time(hfig)  user:        3.0  user+sys:        3.0  wallclock:        0.6
+  
+  start of program probe
+  
+  Peak memory usage:   4756 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        2.9  user+sys:        2.9  wallclock:        0.5
+  
+  start of program grid
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -11        4        1
+  DFT-med.    -10        5        1
+  DFT-grad    -12        6        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  Rel-grad    -17        0        1
+  
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       C5       C6       C7
+  grid # 1       97       97       97       99       97       96       96
+  grid # 2      336      334      335      360      333      353      349
+  grid # 3      229      229      234      240      222      196      213
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom        C8       C9      C10      C11      C12      C13      C14
+  grid # 1       98       98       94       95       96       97       97
+  grid # 2      366      358      344      332      335      340      354
+  grid # 3      272      340       52      166      218      210      195
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C15      C16      C17      C18      C19      C20      C21
+  grid # 1       99      100       99       97       96       97       99
+  grid # 2      389      390      362      343      355      334      362
+  grid # 3      256      405      104      188      223      216      243
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       C22      H23      H24      H25      H26      H27      H28
+  grid # 1       97      118      118      117      114      108      108
+  grid # 2      337      451      451      443      436      419      437
+  grid # 3      231     1328     1331     1139      877      471      920
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H29      H30      H31      H32      H33      H34      H35
+  grid # 1      117      118      118      115      109      118      114
+  grid # 2      454      455      455      441      444      451      443
+  grid # 3     1246     1392     1374      972      976     1307     1031
+  grid # 4     4304     4304     4304     4304     4304     4304     4304
+  grid # 5     1192     1192     1192     1192     1192     1192     1192
+  grid # 6     5226     5226     5226     5226     5226     5226     5226
+   
+  number of gridpoints: 
+     atom       H36    total
+  grid # 1      118     3748
+  grid # 2      445    13926
+  grid # 3     1143    20389
+  grid # 4     4304   154944
+  grid # 5     1192    42912
+  grid # 6     5226   188136
+   
+  Peak memory usage:   4786 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:       18.2  user+sys:       18.2  wallclock:        1.6
+  
+  start of program rwr
+  
+  Peak memory usage:   4745 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       40.4  user+sys:       40.4  wallclock:        3.8
+  
+  start of program scf
+  
+ number of electrons..........        145
+ number of alpha electrons....         73
+ number of beta electrons.....         72
+ number of alpha orbitals.....        225
+ number of beta orbitals......        225
+ number of alpha occupied orb..        73
+ number of alpha virtual orb...       152
+ number of beta occupied orb...        72
+ number of beta virtual orb....       153
+ SCF type: UDFT=Becke_3_Parameter/HF+Slater+Becke88+VWN+LYP (B3LYP)
+ Energy computed with NOPS off.
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  5  M    -842.84664962212           1.6E-02  1.4E-01
+etot    2  Y  Y  6  M    -840.51406188519 -2.3E+00  2.5E-02  2.0E-01
+etot    3  Y  Y  6  M    -823.66912037973 -1.7E+01  2.4E-02  3.1E-01
+etot    4  N  Y  2  U    -844.51611273836  2.1E+01  1.5E-02  1.1E-01
+etot    5  Y  Y  6  M    -844.52060155430  4.5E-03  7.1E-03  1.4E-01
+etot    6  N  Y  2  U    -845.56659863292  1.0E+00  5.4E-03  3.7E-02
+etot    7  Y  Y  6  M    -845.27098628410 -3.0E-01  4.9E-03  7.8E-02
+etot    8  N  Y  2  U    -845.67589647145  4.0E-01  1.4E-03  3.2E-02
+etot    9  Y  Y  6  M    -845.72782085927  5.2E-02  8.2E-04  7.4E-03
+etot   10  N  Y  2  U    -845.73422590726  6.4E-03  5.4E-04  1.0E-02
+etot   11  Y  Y  6  M    -845.73924745822  5.0E-03  2.9E-04  2.5E-03
+etot   12  N  Y  2  U    -845.74028186179  1.0E-03  2.1E-04  1.8E-03
+etot   13  Y  Y  6  M    -845.74067975030  4.0E-04  1.4E-04  1.4E-03
+etot   14  Y  Y  6  M    -845.74088850707  2.1E-04  9.6E-05  9.3E-04
+etot   15  Y  Y  6  M    -845.74102385498  1.4E-04  1.4E-04  1.0E-03
+etot   16  Y  Y  6  M    -845.74113738522  1.1E-04  1.1E-04  4.3E-04
+etot   17  N  Y  2  U    -845.74124961940  1.1E-04  3.2E-05  2.9E-04
+etot   18  N  Y  2  U    -845.74126331420  1.4E-05  2.7E-05  2.7E-04
+etot   19  N  Y  2  U    -845.74127323945  9.9E-06  3.0E-05  3.3E-04
+etot   20  N  Y  2  U    -845.74128487251  1.2E-05  3.9E-05  3.1E-04
+etot   21  N  Y  2  U    -845.74129801417  1.3E-05  2.1E-05  3.0E-04
+etot   22  N  Y  2  U    -845.74130445152  6.4E-06  3.9E-05  3.1E-04
+etot   23  N  Y  2  U    -845.74131716864  1.3E-05  6.9E-05  3.2E-04
+etot   24  Y  Y  6  M    -845.74133650999  1.9E-05  1.8E-05  3.0E-04
+etot   25  N  Y  2  U    -845.74134288298  6.4E-06  4.3E-05  2.9E-04
+etot   26  N  Y  2  U    -845.74135531297  1.2E-05  2.1E-05  2.7E-04
+etot   27  N  Y  2  U    -845.74136077841  5.5E-06  8.5E-06  2.6E-04
+etot   28  N  Y  2  U    -845.74136255910  1.8E-06  1.6E-05  2.7E-04
+etot   29  N  Y  2  U    -845.74136706770  4.5E-06  5.3E-05  2.8E-04
+etot   30  Y  Y  6  M    -845.74135514771 -1.2E-05  2.7E-05  3.2E-04
+etot   31  N  Y  2  U    -845.74136066293  5.5E-06  1.5E-05  3.1E-04
+etot   32  N  Y  2  U    -845.74135640274 -4.3E-06  2.7E-05  3.2E-04
+etot   33  N  Y  2  U    -845.74136393270  7.5E-06  1.2E-05  3.1E-04
+etot   34  N  Y  2  U    -845.74136073335 -3.2E-06  1.0E-05  3.2E-04
+etot   35  N  Y  2  U    -845.74136132172  5.9E-07  2.4E-05  2.9E-04
+etot   36  N  Y  2  U    -845.74136825598  6.9E-06  1.4E-05  3.2E-04
+etot   37  N  Y  2  U    -845.74136387699 -4.4E-06  1.5E-05  3.2E-04
+etot   38  N  Y  2  U    -845.74136060119 -3.3E-06  1.8E-05  3.2E-04
+etot   39  N  Y  2  U    -845.74136032005 -2.8E-07  8.2E-06  3.2E-04
+etot   40  N  Y  2  U    -845.74135787091 -2.4E-06  3.2E-05  3.3E-04
+etot   41  N  Y  2  U    -845.74134815706 -9.7E-06  2.3E-05  2.6E-04
+etot   42  N  Y  2  U    -845.74134261280 -5.5E-06  2.6E-05  3.2E-04
+etot   43  N  Y  2  U    -845.74135069402  8.1E-06  1.6E-05  2.5E-04
+etot   44  N  Y  2  U    -845.74134876645 -1.9E-06  4.4E-05  3.0E-04
+etot   45  N  Y  2  U    -845.74134146619 -7.3E-06  5.2E-05  2.5E-04
+etot   46  Y  Y  6  M    -845.74133957628 -1.9E-06  4.6E-05  2.1E-04
+etot   47  N  Y  2  U    -845.74134396502  4.4E-06  8.0E-05  1.5E-04
+etot   48  Y  N  6  M    -845.74135289084  8.9E-06  0.0E+00  0.0E+00
+  
+ ERROR 2256: fatal error
+  
+  SCF convergence failure:  Maximum number of iterations reached
+
+
+ ----------------------------------------------------------------------
+ Jaguar cannot recover from this error and will now abort. 
+ For technical support please contact the Schrodinger Support Center at
+ http://www.schrodinger.com/supportcenter/ or help@schrodinger.com
+ ----------------------------------------------------------------------
+
+
+
+ Total cpu seconds     user:      68.832   user+sys:      68.832
+
+  
+Date:          Sun 08 Jan 2017 22:27:03
+SCHRODINGER:   /home/applications/Schrodinger_Suites_2016-3
+uname -a:      Linux n054 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+FQDN:          n054.panther.net
+Main memory:   48374 MB
+Free disk:     39866718 MB
+Host ID:       40f2e94e2c46
+Machine name:  n054
+OS:            CentOS release 6.5 (Final)
+CPU:           Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz
+Processors:    16
+Memory:        50724499 kB
+Swap:          0 kB
+kernel:        2.6.32-431.el6.x86_64
+glibc:         2.12
+Product:       aacg-v17015-Linux-x86_64 (4d5e4891b95edc3974c2f897a8f2bbfda884f701)
+Product:       bioluminate-v24015-Linux-x86_64 (c7e9ddecc01a31ee6f1f49fd0866fec40be878d9)
+Product:       canvas-v29015-Linux-x86_64 (eefcb58a94f04937200c16cc72ce65c92553d20f)
+Product:       combiglide-v42015-Linux-x86_64 (649832a5082f66cb6c92b108724a8a540362cfc8)
+Product:       desmond-v47015-Linux-x86_64 (cd195a3f6f7c69c2e4a7d397341063b5fd7f9fa7)
+Product:       epik-v37015-Linux-x86_64 (3a54a2d4762d4d26ff3f381b6eba74ffec5b135e)
+Product:       glide-v72015-Linux-x86_64 (7bda026d4634ee2331fde20a7d677e0633c1458c)
+Product:       impact-v72015-Linux-x86_64 (78357f574412e54dad3121cb0c6c311417a07a40)
+Product:       jaguar-v93015-Linux-x86_64 (c979cf15abdb397bfe3d00837bb358b46bdb9998)
+Product:       knime-v35015-Linux-x86_64 (fe637e1275d976d9c56b403a2c6666f075125988)
+Product:       macromodel-v113015-Linux-x86_64 (c5bdb4b8bf816c7fdd53141b85dce76bf6aeaad9)
+Product:       maestro-v107015-Linux-x86_64 (c112f21020c11ad6d55a6f13bf2f9e71852ad421)
+Product:       mcpro-v43015-Linux-x86_64 (a66fce8e103e80d6ab062d78a9dd96a664b153ee)
+Product:       mmshare-v35015-Linux-x86_64 (6deaa6dca9205019a9800e1f617340ea168c2739)
+Product:       phase-v48015-Linux-x86_64 (5f5e3df18b3bb719c7300fee47d9ebb55737e27a)
+Product:       pldb-v35015-Linux-x86_64 (5fa9a4c6731880caf6cab7034454a839dd077a79)
+Product:       psp-v45015-Linux-x86_64 (af3c2b23dcf79d506aa27a3bffa4cca73631134b)
+Product:       qikprop-v49015-Linux-x86_64 (5521a265f711fdfde92d556bb69a9e3f62beb1bd)

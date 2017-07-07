@@ -1,0 +1,49 @@
+excelfile          Savefile           Gasxtal-fix-charge6-cytoc.pdb 
+new1718b.pdb  \savefolder\new1718b.txt         N2
+
+interface 0 0
+fromvalue 1
+tovalue 1
+partialc 1
+Charge 1
+Mgas 28
+radgas 1.5
+Polarizability 1.7
+Pressure 101325
+Mweight 227
+Temperature 300
+
+redCoef 1.0
+
+NrotationsPA 100
+NrotationsEHSS 3
+NrotationsTM 3
+NgastotalEHSS 3000000
+NgastotalTM 300000
+Acommodation 0.92
+Timestep 100
+Boxdomain 16
+Diffuse? 1
+reemvel 6
+Other 0
+Simplify 0
+
+PA 0
+EHSS/DHSS 0
+TM 0
+DTM 0
+
+PATSA 0
+Cutoff 0
+Mobcal 0
+LennardJones 1
+SimplifiedTM 1
+
+seed 13
+Numthreads 7
+chargelines 55 62
+
+
+
+
+
